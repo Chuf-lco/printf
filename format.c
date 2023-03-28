@@ -5,15 +5,6 @@
 #include <string.h>
 
 /**
- * _putchar - Printing a character
- * @c: parameter
- * Return: Return Character Success
- */
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
-}
-/**
  * _printf - Custom printf function
  * @format: Parameters for output
  * Return: Return Correct Output Success
